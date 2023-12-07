@@ -17,8 +17,8 @@ TICKERS = [
 
 @task()
 
-def get_history(ticker, ds=None, ds_nodash=None):
-        file_path = f"/home/bruno/Documents/extract_airflow/stocks/{ticker}/{ticker}_{ds_nodash}.csv"
+def get_history(ticker, ds=None, ds_nodash=None): #extract data
+        file_path = f"/home/bruno/Documents/extract_airflow/stocks/{ticker}/{ticker}_{ds_nodash}.csv" #change with your path
         Path(file_path).parent.mkdir(parents=True, exist_ok=True)
         yfinance.Ticker(ticker).history(
             period ="1d",
@@ -31,7 +31,7 @@ def get_history(ticker, ds=None, ds_nodash=None):
 @dag(
         schedule_interval = "0 0 * * 2-6",
         start_date = pendulum.datetime(2023, 1, 1, tz="UTC"),
-        catchup = True)
+        catchup = True) # create dag scheduler
 
 def get_stocks_dag():
         for ticker in TICKERS:
