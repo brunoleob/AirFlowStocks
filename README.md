@@ -10,17 +10,17 @@ The script defines a DAG (Directed Acyclic Graph) in Airflow to schedule and exe
 
 ## Requirements
 
-Python 3.x
-Apache Airflow
-yfinance
-pendulum
-pathlib
+- Python 3.x
+- Apache Airflow
+- yfinance
+- pendulum
+- pathlib
 
 ## Setup
 
-Install all required libraries.
-Set up Apache Airflow on your system.
-Place the script in the Airflow DAGs directory.
+1. Install all required libraries.
+2. Set up Apache Airflow on your system.
+3. Place the script in the Airflow DAGs directory.
 
 ## Execution
 
