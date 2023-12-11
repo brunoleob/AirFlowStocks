@@ -25,7 +25,7 @@ Workers have been configured to handle parallel processing of tasks, ensuring ef
 ## Execution Monitoring with Flower
 The Flower tool has been integrated to provide a web-based monitoring interface for observing the progress and status of task executions. Flower enhances visibility into the Celery tasks and aids in debugging and performance optimization.
 
-![Flower](https://drive.google.com/uc?export=download&id=1q43L1YCD36H1hML-dbsDK-xWSX1A8NlF)
+![Flower](https://drive.google.com/uc?export=download&id=1q43L1YCD36H1hML-dbsDK-xWSX1A8NlF](https://drive.google.com/uc?export=download&id=1q43L1YCD36H1hML-dbsDK-xWSX1A8NlF)
 
 
 ## Requirements
