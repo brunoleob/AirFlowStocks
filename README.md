@@ -10,7 +10,7 @@ The sample data files have been added to the “stocks” directory.
 ## How It Works
 
 The script defines a DAG (Directed Acyclic Graph) in Airflow to schedule and execute a data extraction task for each specified stock. The yfinance library is used to extract the data.
-![DAG do Apache Airflow](https://drive.google.com/file/d/1sA1fHSp5rgHFQn-x5dZri-wt6LxGABs8/uc?export=download)
+![DAG do Apache Airflow](https://drive.google.com/uc?export=download&id=1sA1fHSp5rgHFQn-x5dZri-wt6LxGABs8)
 
 ## Celery Executor and Redis Setup
 The project utilizes the Celery executor for parallel task execution. A non-relational Redis database serves as the message broker for task queuing. This configuration enhances the scalability and performance of the data extraction process.
